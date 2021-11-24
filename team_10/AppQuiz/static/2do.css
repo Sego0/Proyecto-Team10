@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+#Pieza{
+    position: relative;
+    width:1000px ;
+    left:500px ;
+    top: 200px;
+    z-index: -1;
+}
+#cola{
+    position: relative;
+    width: 200px;
+    bottom: 9000000000000000000px;
+    z-index: 1;
+
+}
+#papel{
+    position: relative;
+
+
+}
+#envoltorio{
+    position: relative;
+}
+#pizza{
+    position: relative;
+}
