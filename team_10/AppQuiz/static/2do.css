@@ -12,12 +12,13 @@ body {
 #cola{
     position: relative;
     width: 200px;
-    bottom: 9000000000000000000px;
-    z-index: 1;
+    bottom: 90px;
+    z-index: 2;
 
 }
 #papel{
     position: relative;
+    left: 500px;
 
 
 }
@@ -26,4 +27,8 @@ body {
 }
 #pizza{
     position: relative;
+}
+#pregunta{
+    position: relative;
+    width: 400px;
 }
