@@ -18,15 +18,16 @@ body {
 }
 #papel{
     position: relative;
-    left: 500px;
-
-
+    left: 10px;
 }
 #envoltorio{
     position: relative;
+    left: -10px;
 }
 #pizza{
     position: relative;
+    left: 600px;
+    top: -200px;
 }
 #pregunta{
     position: relative;
