@@ -24,7 +24,7 @@ def _2do_escenario_1(request):
 
     objectsPrev = request.GET.get('objectPrev', '0000')
     if "0" in objectsPrev:
-        return redirect("/AppQuiz/explosion/")
+        return redirect("/explosion/")
 
     return render(request, "Casa.html")
 

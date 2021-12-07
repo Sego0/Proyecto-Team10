@@ -9,28 +9,29 @@ body {
     z-index: -1;
 }
 #cola{
-    position: relative;
+    position: absolute;
     width: 200px;
-    bottom: 90px;
+    top: 20%;
     z-index: 2;
 
 }
 #papel{
-    position: relative;
-    left: 10px;
+    position: absolute;
+    left: 27%;
+    top: 22%;
 
 
 }
 #envoltorio{
-    position: relative;
-    left: -10px;
+    position: absolute;
+    left: 10%;
 }
 #pizza{
-    position: relative;
-    left:  600px;
-    top:  -200px;
+    position: absolute;
+    left:  60%;
+    top:  60%;
 }
 #pregunta{
-    position: relative;
+    position: absolute;
     width: 400px;
 }
