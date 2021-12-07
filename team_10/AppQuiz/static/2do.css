@@ -3,10 +3,9 @@ body {
 }
 
 #Pieza{
-    position: relative;
+    position: absolute;
     width:1000px ;
-    left:500px ;
-    top: 200px;
+
     z-index: -1;
 }
 #cola{
@@ -18,15 +17,18 @@ body {
 }
 #papel{
     position: relative;
-    left: 500px;
+    left: 10px;
 
 
 }
 #envoltorio{
     position: relative;
+    left: -10px;
 }
 #pizza{
     position: relative;
+    left:  600px;
+    top:  -200px;
 }
 #pregunta{
     position: relative;

@@ -3,21 +3,21 @@ body {
 
 }
 #Titulo{
-    position: relative;
+    position: absolute;
     left: 500px;
     bottom:800px;
     z-index: 1;
 }
 
 #fondo {
-    position: relative;
+    position: absolute;
     width:840px;
     right: 120px;
     z-index: -1;
 
 }
 #Jugar{
-    position: relative;
+    position: absolute;
     left: 860px;
     bottom: 200px;
 }
