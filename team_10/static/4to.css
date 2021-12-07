@@ -2,21 +2,16 @@ body {
     background-color: black;
 }
 
-#living{
+#explosion{
     position: absolute;
     width:1250px ;
     left:  10%;
     
     z-index: -1;
 }
-#botella{
+#gameover{
     position: relative;
-    left: 15%;
-    bottom: -250px;
-    width: 100px;
-}
-#siguiente{
-    position: relative;
-    left: -7%;
-    top: -15%;
+    width: 1000px;
+    left:  42%;
+    top:  10000%;
 }

@@ -3,9 +3,10 @@ body {
 
 }
 #Titulo{
-    position: absolute;
+   position: absolute;
+    width: 400px;
     left: 35%;
-    top: 50%;
+    top: -5%;
     z-index: 1;
 }
 

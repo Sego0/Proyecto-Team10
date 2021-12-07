@@ -4,34 +4,33 @@ body {
 
 #Pieza{
     position: absolute;
-    width:1000px ;
+    width:1250px ;
+    left: 10%;
 
     z-index: -1;
 }
 #cola{
     position: absolute;
     width: 200px;
-    top: 20%;
+    top: 17%;
+    left: 12%;
     z-index: 2;
 
 }
 #papel{
     position: absolute;
-    left: 27%;
-    top: 22%;
+    left: 45%;
+    top: 38%;
 
 
 }
 #envoltorio{
     position: absolute;
-    left: 10%;
+    left: 23%;
+    top:  45%;
 }
 #pizza{
     position: absolute;
-    left:  60%;
-    top:  60%;
-}
-#pregunta{
-    position: absolute;
-    width: 400px;
+    left:  78%;
+    top:  30%;
 }

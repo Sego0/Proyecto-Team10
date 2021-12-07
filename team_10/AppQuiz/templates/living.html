@@ -1,13 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="{% static "3er.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static '3er.css' %}">
 	<title>living</title>
 </head>
 <body>
-	<img id="Pieza" src=https://piskel-imgstore-b.appspot.com/img/b8b91791-4d2e-11ec-b28d-bb104c982eb9.gif>
+	<img id="living" src=https://piskel-imgstore-b.appspot.com/img/b8b91791-4d2e-11ec-b28d-bb104c982eb9.gif>
+	<img id="botella" src=https://piskel-imgstore-b.appspot.com/img/6a7bdc70-5610-11ec-837b-5f4d9eeb2bfd.gif>
+	<a id ="siguiente" href="/parque?objectsPrev={{objetosActuales}}"><button>Siguiente Escenario</button></a>
 </body>
 </html>
