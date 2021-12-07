@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+#Pieza{
+    position: absolute;
+    width:1000px ;
+
+    z-index: -1;
+}
+#cola{
+    position: relative;
+    width: 200px;
+    bottom: 90px;
+    z-index: 2;
+
+}
+#papel{
+    position: relative;
+    left: 10px;
+
+
+}
+#envoltorio{
+    position: relative;
+    left: -10px;
+}
+#pizza{
+    position: relative;
+    left:  600px;
+    top:  -200px;
+}
+#pregunta{
+    position: relative;
+    width: 400px;
+}

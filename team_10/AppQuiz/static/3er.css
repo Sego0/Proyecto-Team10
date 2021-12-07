@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+#living{
+    position: absolute;
+    width:1000px ;
+    left:500px ;
+    top: 200px;
+    z-index: -1;
+}
+#botella{
+    position:  relative;
+    
+}

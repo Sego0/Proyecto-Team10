@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+
+}
+#Titulo{
+    position: absolute;
+    left: 500px;
+    bottom:800px;
+    z-index: 1;
+}
+
+#fondo {
+    position: absolute;
+    width:840px;
+    right: 120px;
+    z-index: -1;
+
+}
+#Jugar{
+    position: absolute;
+    left: 860px;
+    bottom: 200px;
+}
+#boton{
+    color: black;
+}
