@@ -5,7 +5,13 @@ body {
 #parque{
     position: absolute;
     width:1000px ;
-    left:  20%;
-    
+    left:  15%;
+    top: -7%;
     z-index: -1;
+}
+#goodending{
+    position:  absolute;
+    width: 150px;
+    left: 70%;
+    top: 100%;
 }
