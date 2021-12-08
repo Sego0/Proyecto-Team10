@@ -27,7 +27,7 @@ def _2do_escenario_1(request):
     objectsPrev = request.GET.get('objectsPrev', '0000')
     if "0" in objectsPrev:
         return redirect("/explosion/")
-
+    
     return render(request, "living.html")
 
 def _2do_escenario_2(request):
