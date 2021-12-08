@@ -20,7 +20,12 @@ def _1er_escenario(request):
     }
     return render(request, "Pieza.html", context)
 
-
+def view(request):
+  response = HttpResponse('blah')
+  response.set_cookie('botellita', 'True')
+  response.set_cookie('envoltorito', 'True')
+  response.set_cookie('pizzita', 'True')
+  response.set_cookie('papelito', 'True')
 
 def _2do_escenario_1(request):
 
